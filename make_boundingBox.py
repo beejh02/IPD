@@ -6,8 +6,8 @@ import cv2
 # -----------------------------
 # 설정 부분 (네 환경에 맞게 바꿔도 됨)
 # -----------------------------
-IMAGE_DIR = "./datasets/images/val/"   # 원본 이미지 폴더
-LABEL_DIR = "./datasets/labels/val/"   # YOLO txt 라벨 폴더
+IMAGE_DIR = "./datasets/images/temp/"   # 원본 이미지 폴더
+LABEL_DIR = "./datasets/labels/temp/"   # YOLO txt 라벨 폴더
 OUTPUT_DIR = "./vis/"     # 박스가 그려진 결과 이미지 저장 폴더
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)

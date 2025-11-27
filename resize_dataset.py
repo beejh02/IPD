@@ -1,8 +1,8 @@
 from PIL import Image
 import os
 
-input_folder = "./datasets/images/val"      # 원본 이미지 폴더
-target_size = (512, 512)           # 원하는 해상도
+input_folder = "./"      # 원본 이미지 폴더
+target_size = (640, 640)           # 원하는 해상도
 
 for file in os.listdir(input_folder):
     if file.lower().endswith((".jpg", ".png", ".jpeg")):

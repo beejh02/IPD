@@ -32,15 +32,15 @@ def draw_round_rect(img, x1, y1, x2, y2, color, thickness=2, radius=10):
 # -----------------------------
 
 # 1. 학습된 모델 불러오기
-model = YOLO("./runs/train/custom_yolov8n/weights/best.pt")
+model = YOLO("./runs/train/custom_yolov8n_augmented/weights/best.pt")
 
-img_path = "test_image.jpeg"
+img_path = "reshape_image.png"
 
 # 2. 이미지 예측
 results = model.predict(
     source=img_path,
     conf=0.3,
-    save=False,
+    save=False, 
     show=False
 )
 

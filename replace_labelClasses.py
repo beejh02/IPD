@@ -41,5 +41,3 @@ for label_path in label_paths:
         f.writelines(fixed_lines)
 
     print(f"[INFO] Overwritten label file → {label_path}")
-
-print("[DONE] All class IDs changed to 0 (overwritten)!")
