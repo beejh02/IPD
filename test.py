@@ -27,6 +27,7 @@ def draw_round_rect(img, x1, y1, x2, y2, color, thickness=2, radius=10):
     cv2.ellipse(img, (x1+radius, y2-radius), (radius, radius), 90, 0, 90, color, thickness)
 
 
+
 # -----------------------------
 # YOLO 원본 코드 + 수정 사항
 # -----------------------------
@@ -34,7 +35,7 @@ def draw_round_rect(img, x1, y1, x2, y2, color, thickness=2, radius=10):
 # 1. 학습된 모델 불러오기
 model = YOLO("./runs/train/custom_yolov8n_augmented/weights/best.pt")
 
-img_path = "reshape_image.png"
+img_path = "test.png"
 
 # 2. 이미지 예측
 results = model.predict(
