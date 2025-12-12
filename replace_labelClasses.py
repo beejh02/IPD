@@ -4,7 +4,7 @@ from glob import glob
 # -----------------------------
 # 설정
 # -----------------------------
-LABEL_DIR = "./datasets/labels/val/"   # 라벨 txt 폴더
+LABEL_DIR = "./datasets/labels/temp/"   # 라벨 txt 폴더
 
 # -----------------------------
 # txt 파일 목록 가져오기

@@ -10,7 +10,7 @@ from ultralytics import YOLO
 IMAGE_DIR = "./datasets/images/temp"       # 라벨링할 이미지 폴더
 LABEL_DIR = "./datasets/labels/temp"       # YOLO txt 라벨이 저장될 폴더
 MODEL_PATH = "./yolov8n.pt"  # 사용할 모델 (사전학습 가중치 또는 내 모델)
-CONF_THRES = 0.5          # confidence threshold (0~1)
+CONF_THRES = 0.01          # confidence threshold (0~1)
 IOU_THRES = 0.4            # NMS IoU threshold
 
 # -----------------------------

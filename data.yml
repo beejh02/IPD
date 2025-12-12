@@ -5,3 +5,4 @@ val: images/val
 names:
   0: sinkhole
   1: landslide
+  2: flood
