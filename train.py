@@ -9,7 +9,7 @@ model.train(
     imgsz=640, 
     epochs=75, 
     batch=8, 
-    lr0=0.003, 
+    lr0=0.002, 
     optimizer="AdamW", 
     pretrained=True, 
     device="cpu", 
@@ -37,9 +37,9 @@ model.train(
     # HSV 색조(Hue): 0.015 (기본값)보다 강하게
     hsv_h=0.05,
     # HSV 채도(Saturation): 0.7 (기본값)보다 강하게
-    hsv_s=0.9,
+    hsv_s=0.4,
     # HSV 명도(Value): 0.4 (기본값)보다 강하게
-    hsv_v=0.6,
+    hsv_v=0.4,
     
     # 플립 계열 (기본값 유지)
     # 좌우 플립(Horizontal Flip)

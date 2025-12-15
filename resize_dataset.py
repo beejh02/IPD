@@ -1,7 +1,7 @@
 from PIL import Image
 import os
 
-input_folder = "./vis"      # 원본 이미지 폴더
+input_folder = "./datasets/images/temp"      # 원본 이미지 폴더
 target_size = (640, 640)           # 원하는 해상도
 
 for file in os.listdir(input_folder):

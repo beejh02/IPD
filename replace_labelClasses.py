@@ -33,7 +33,7 @@ for label_path in label_paths:
 
         # 기존 class는 버리고 0으로 고정
         _, x, y, w, h = parts
-        fixed_line = f"0 {x} {y} {w} {h}\n"
+        fixed_line = f"2 {x} {y} {w} {h}\n"
         fixed_lines.append(fixed_line)
 
     # 기존 파일을 덮어쓰기
