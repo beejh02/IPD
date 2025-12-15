@@ -54,4 +54,4 @@ def rename_images_in_directory(root_dir, start_number=1):
 
 # 실행 예시
 if __name__ == "__main__":
-    rename_images_in_directory("./datasets/images/temp", start_number=157)
+    rename_images_in_directory("./datasets/images/temp", start_number=179)
