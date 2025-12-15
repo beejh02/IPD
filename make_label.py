@@ -7,10 +7,10 @@ from ultralytics import YOLO
 # -----------------------------
 # 설정 부분
 # -----------------------------
-IMAGE_DIR = "./datasets/images/temp"       # 라벨링할 이미지 폴더
-LABEL_DIR = "./datasets/labels/temp"       # YOLO txt 라벨이 저장될 폴더
+IMAGE_DIR = "./datasets/images/trash"       # 라벨링할 이미지 폴더
+LABEL_DIR = "./datasets/labels/trash"       # YOLO txt 라벨이 저장될 폴더
 MODEL_PATH = "./runs/train/custom_yolov8n_augmented/weights/best.pt"  # 사용할 모델 (사전학습 가중치 또는 내 모델)
-CONF_THRES = 0.1          # confidence threshold (0~1)
+CONF_THRES = 0.01          # confidence threshold (0~1)
 IOU_THRES = 0.4            # NMS IoU threshold
 
 # -----------------------------
